@@ -2,7 +2,7 @@
 - 👀 I’m interested in development and coding
 - 🌱 I’m currently learning on Simplon
 - 💞️ I’m looking to collaborate on webdev projects
-- 📫 How to reach me developerbam25@gmail.com
+- 📫 How to reach me idderaitelmouden@gmail.com
 
 <!---
 IDDER29/IDDER29 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
