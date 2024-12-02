@@ -18,7 +18,7 @@ I’m passionate about creating tools and experiences that make life easier and 
 
 ## 🚀 Current Projects  
 My Current projects include:  
-- 🧠 **SaaS Study Platform**: A platform to help students study and review lessons more efficiently. 
+- 🧠 **SaaS Study Platform**: A platform built with React and Node.js to help students study efficiently by providing interactive quizzes and resources.
 - 💡 **Collaborative Platform**:   Leading a team to build a platform aimed to make everyday life smoother and more productive. 
 
 ---
@@ -61,4 +61,4 @@ I’m always excited to meet like-minded people and explore exciting opportuniti
 ---
 
 ## 🚀 Final Thoughts  
-Technology isn’t just about the code; it’s about people, connections, and creating meaningful change. Let’s build something impactful together!
+Technology is about building connections and creating meaningful change. I’m excited to collaborate on impactful projects!
