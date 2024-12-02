@@ -44,7 +44,7 @@ My Current projects include:
 
 ## ✍️ Let’s Connect!  
 I’m always excited to meet like-minded people and explore exciting opportunities. Reach out, and let’s chat!  
-- 🌐 [**Portfolio**](#)  
+- 🌐 [**Portfolio**](https://portfolio-nu-six-19.vercel.app/)  
 - 📝 [**Blog**](#)  
 - 💼 [**LinkedIn**](https://www.linkedin.com/in/idderaitelmouden/)  
 - ✉️ [**Email Me**](mailto:idderaitelmouden@gmail.com)  
