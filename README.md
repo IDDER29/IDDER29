@@ -35,15 +35,6 @@ My Current projects include:
 
 ---
 
-## 🎉 My GitHub Highlights  
-<p align="center">  
-  <img src="https://github-readme-stats.vercel.app/api?username=IDDER29&show_icons=true&theme=radical" alt="GitHub Stats" />  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=IDDER29&theme=radical" alt="GitHub Streak" />  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=IDDER29&layout=compact&theme=radical" alt="Top Languages" />  
-</p>  
-
----
-
 ## ✨ Fun Facts About Me  
 - 🧩 **Problem Solver**: Puzzles and challenges fuel my creativity.  
 - ♟️ **Strategist**: Chess sharpens my focus, just like debugging does!  
