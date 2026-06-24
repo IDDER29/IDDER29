@@ -1,154 +1,127 @@
-<svg width="1280" height="440" viewBox="0 0 1280 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="IDDER — Full-Stack Engineer. Systems, web and commerce. Agadir, Morocco.">
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Idder — Full-Stack Engineer · Systems, Web, Commerce · Agadir, Morocco">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0a0613"/>
-      <stop offset="0.62" stop-color="#11071f"/>
-      <stop offset="1" stop-color="#05030a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#080808"/>
+      <stop offset="1" stop-color="#0c0b0e"/>
     </linearGradient>
-    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffe98a"/>
-      <stop offset="0.45" stop-color="#ff7eb3"/>
-      <stop offset="1" stop-color="#b026d3"/>
+    <linearGradient id="scanLine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00e5ff" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="nameG" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#5eead4"/>
-      <stop offset="0.5" stop-color="#a5f3fc"/>
-      <stop offset="1" stop-color="#f0abfc"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-0.5 0;0.5 0;-0.5 0" dur="8s" repeatCount="indefinite"/>
+    <linearGradient id="nameSheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c0c0c0"/>
     </linearGradient>
-    <linearGradient id="cyanFade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#22d3ee"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    <linearGradient id="divRule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.15" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="0.85" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-
-    <filter id="neon" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="2.4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="nameGlow" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="14" result="blur"/>
+      <feColorMatrix in="blur" type="saturate" values="2" result="sat"/>
+      <feMerge><feMergeNode in="sat"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="neonLg" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="softGlow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="blurBig" x="-150%" y="-150%" width="400%" height="400%">
-      <feGaussianBlur stdDeviation="42"/>
-    </filter>
-
-    <clipPath id="card"><rect x="1" y="1" width="1278" height="438" rx="18"/></clipPath>
-    <clipPath id="fan"><polygon points="640,272 -260,440 1540,440"/></clipPath>
+    <clipPath id="frame"><rect width="1280" height="420"/></clipPath>
   </defs>
 
-  <g clip-path="url(#card)">
-    <rect width="1280" height="440" fill="url(#sky)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="420" fill="url(#bg)"/>
 
-    <!-- stars -->
-    <g fill="#cdeafe">
-      <circle cx="120" cy="60" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
-      <circle cx="240" cy="120" r="1"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.2s" repeatCount="indefinite"/></circle>
-      <circle cx="1050" cy="70" r="1.3"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.6s" repeatCount="indefinite"/></circle>
-      <circle cx="1180" cy="150" r="1"><animate attributeName="opacity" values="0.15;0.85;0.15" dur="2.8s" repeatCount="indefinite"/></circle>
-      <circle cx="430" cy="48" r="1"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="3.9s" repeatCount="indefinite"/></circle>
-      <circle cx="880" cy="40" r="1.2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.6s" repeatCount="indefinite"/></circle>
-      <circle cx="690" cy="95" r="1"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.5s" repeatCount="indefinite"/></circle>
+    <!-- Barely-visible grid texture -->
+    <g stroke="#0f0f0f" stroke-width="1">
+      <line x1="0" y1="70" x2="1280" y2="70"/>
+      <line x1="0" y1="350" x2="1280" y2="350"/>
+      <line x1="730" y1="70" x2="730" y2="350"/>
     </g>
 
-    <!-- sun glow + body -->
-    <ellipse cx="640" cy="305" rx="180" ry="145" fill="#ff5e9c" opacity="0.26" filter="url(#blurBig)"/>
-    <circle cx="640" cy="322" r="90" fill="url(#sun)" filter="url(#neonLg)"/>
-    <!-- sun stripes (sky-coloured slats) -->
-    <g fill="#0a0613">
-      <rect x="524" y="322" width="232" height="3.5"/>
-      <rect x="524" y="331" width="232" height="4"/>
-      <rect x="524" y="342" width="232" height="5"/>
-      <rect x="524" y="356" width="232" height="6.5"/>
-      <rect x="524" y="374" width="232" height="8"/>
-      <rect x="524" y="396" width="232" height="9.5"/>
+    <!-- TOP BAR -->
+    <circle cx="52" cy="36" r="3.5" fill="#1fce6b">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="66" y="40"
+      font-family="'SF Mono','Cascadia Code','Fira Code',ui-monospace,monospace"
+      font-size="11" letter-spacing="2.5" fill="#383838">SYS://IDDER_29 — ONLINE</text>
+
+    <text x="1228" y="40" text-anchor="end"
+      font-family="'SF Mono',ui-monospace,monospace"
+      font-size="11" letter-spacing="2" fill="#282828">AGADIR · MOROCCO · 2026</text>
+
+    <!-- GIANT NAME — the visual centrepiece -->
+    <text x="52" y="290"
+      font-family="'Arial Black','Helvetica Neue',Impact,'Franklin Gothic Heavy',sans-serif"
+      font-weight="900"
+      font-size="196"
+      letter-spacing="-6"
+      fill="url(#nameSheen)">IDDER</text>
+
+    <!-- Name glow layer — very subtle -->
+    <text x="52" y="290"
+      font-family="'Arial Black','Helvetica Neue',Impact,'Franklin Gothic Heavy',sans-serif"
+      font-weight="900"
+      font-size="196"
+      letter-spacing="-6"
+      fill="#ffffff"
+      opacity="0.04"
+      filter="url(#nameGlow)">IDDER</text>
+
+    <!-- Surname — quietly below -->
+    <text x="56" y="326"
+      font-family="'Helvetica Neue',Arial,sans-serif"
+      font-size="15"
+      letter-spacing="10"
+      fill="#333333">AIT ELMOUDEN</text>
+
+    <!-- RIGHT COLUMN — role + stack -->
+    <!-- Thin top rule of right column -->
+    <rect x="762" y="108" width="466" height="1" fill="url(#divRule)"/>
+
+    <text x="762" y="134"
+      font-family="'Helvetica Neue',Arial,sans-serif"
+      font-size="11" letter-spacing="5" fill="#484848"
+      font-weight="600">FULL-STACK ENGINEER</text>
+
+    <!-- Stack lines — tight, specific, no fluff -->
+    <g font-family="'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#858585">
+      <text x="762" y="178">Systems &amp; C</text>
+      <text x="762" y="208">React &nbsp;·&nbsp; Next.js &nbsp;·&nbsp; TypeScript</text>
+      <text x="762" y="238">Node.js &nbsp;·&nbsp; NestJS &nbsp;·&nbsp; Python</text>
+      <text x="762" y="268">Shopify &nbsp;·&nbsp; Liquid</text>
+      <text x="762" y="298">React Native</text>
     </g>
 
-    <!-- perspective grid -->
-    <g clip-path="url(#fan)">
-      <path stroke="#2dd4ef" stroke-width="1.4" opacity="0.6" filter="url(#neon)"
-        d="M640 272L-165 440M640 272L-50 440M640 272L65 440M640 272L180 440M640 272L295 440M640 272L410 440M640 272L525 440M640 272L640 440M640 272L755 440M640 272L870 440M640 272L985 440M640 272L1100 440M640 272L1215 440M640 272L1330 440M640 272L1445 440"/>
-      <g stroke="#2dd4ef" stroke-width="1.4" filter="url(#neon)">
-        <line x1="0" y1="284" x2="1280" y2="284" opacity="0.30"/>
-        <line x1="0" y1="300" x2="1280" y2="300" opacity="0.40"/>
-        <line x1="0" y1="322" x2="1280" y2="322" opacity="0.50"/>
-        <line x1="0" y1="352" x2="1280" y2="352" opacity="0.65"/>
-        <line x1="0" y1="394" x2="1280" y2="394" opacity="0.80"/>
-      </g>
-      <!-- flowing scan lines -->
-      <line x1="0" x2="1280" stroke="#a5f3fc" stroke-width="2" filter="url(#neon)" y1="272" y2="272">
-        <animate attributeName="y1" values="272;440" dur="3.4s" repeatCount="indefinite"/>
-        <animate attributeName="y2" values="272;440" dur="3.4s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;0.9;0" dur="3.4s" repeatCount="indefinite"/>
-      </line>
-      <line x1="0" x2="1280" stroke="#f0abfc" stroke-width="2" filter="url(#neon)" y1="272" y2="272">
-        <animate attributeName="y1" values="272;440" dur="3.4s" begin="-1.7s" repeatCount="indefinite"/>
-        <animate attributeName="y2" values="272;440" dur="3.4s" begin="-1.7s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;0.9;0" dur="3.4s" begin="-1.7s" repeatCount="indefinite"/>
-      </line>
-    </g>
+    <!-- Thin bottom rule of right column -->
+    <rect x="762" y="318" width="466" height="1" fill="url(#divRule)"/>
 
-    <!-- horizon line -->
-    <rect x="0" y="270" width="1280" height="2" fill="url(#cyanFade)" filter="url(#neon)"/>
+    <!-- Availability — specific and clean -->
+    <circle cx="764" cy="342" r="3" fill="#1fce6b" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="776" y="346"
+      font-family="'Helvetica Neue',Arial,sans-serif"
+      font-size="12" letter-spacing="2" fill="#404040">AVAILABLE — FREELANCE &amp; FULL-TIME</text>
 
-    <!-- radar (top-right HUD) -->
-    <g transform="translate(1168,82)" opacity="0.9">
-      <circle r="46" fill="none" stroke="#1d4d57" stroke-width="1"/>
-      <circle r="30" fill="none" stroke="#1d4d57" stroke-width="1"/>
-      <circle r="14" fill="none" stroke="#1d4d57" stroke-width="1"/>
-      <line x1="-46" y1="0" x2="46" y2="0" stroke="#1d4d57" stroke-width="1"/>
-      <line x1="0" y1="-46" x2="0" y2="46" stroke="#1d4d57" stroke-width="1"/>
-      <g>
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.5s" repeatCount="indefinite"/>
-        <path d="M0 0 L46 0 A46 46 0 0 0 32 -32 Z" fill="#22d3ee" opacity="0.22"/>
-        <line x1="0" y1="0" x2="46" y2="0" stroke="#22d3ee" stroke-width="1.5" filter="url(#neon)"/>
-      </g>
-      <circle cx="22" cy="-14" r="2.2" fill="#5eead4" filter="url(#neon)"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>
-    </g>
+    <!-- SCAN LINE — the one animation, extremely subtle -->
+    <rect x="762" y="70" width="2" height="280" fill="url(#scanLine)" opacity="0.7">
+      <animate attributeName="x" values="762;1228;762" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+      <animate attributeName="opacity" values="0;0.7;0" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </rect>
 
-    <!-- HUD corner brackets -->
-    <g stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.85" filter="url(#neon)">
-      <path d="M24 58 L24 30 L52 30"/>
-      <path d="M1256 410 L1256 382 L1228 382"/>
-      <path d="M24 382 L24 410 L52 410"/>
-      <path d="M1256 58 L1256 30 L1228 30"/>
-    </g>
+    <!-- BOTTOM BAR -->
+    <rect x="0" y="358" width="1280" height="1" fill="url(#divRule)"/>
 
-    <!-- top status line -->
-    <g font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', Menlo, Consolas, monospace" font-size="13">
-      <circle cx="50" cy="52" r="3.5" fill="#34f5a0" filter="url(#neon)"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
-      <text x="64" y="56" fill="#7cf5c2" letter-spacing="2">SYS://IDDER_29</text>
-      <text x="220" y="56" fill="#3f5168" letter-spacing="2">— STATUS: ONLINE</text>
-    </g>
+    <text x="52" y="390"
+      font-family="'SF Mono',ui-monospace,monospace"
+      font-size="11" letter-spacing="2" fill="#252525">1337 SCHOOL / 42 NETWORK &nbsp;·&nbsp; 68 REPOSITORIES &nbsp;·&nbsp; BUILT FROM SCRATCH</text>
 
-    <!-- NAME with chromatic glitch -->
-    <g text-anchor="middle" font-family="'Arial Black', 'Segoe UI', Helvetica, sans-serif" font-weight="900" font-size="84" letter-spacing="6">
-      <text x="638" y="150" fill="#ff2e88" opacity="0.55" filter="url(#neon)">
-        IDDER
-        <animateTransform attributeName="transform" type="translate" values="0 0;-4 0;0 0;0 0;3 0;0 0;0 0" keyTimes="0;0.04;0.08;0.5;0.54;0.58;1" dur="4.5s" repeatCount="indefinite"/>
-      </text>
-      <text x="642" y="150" fill="#22d3ee" opacity="0.55" filter="url(#neon)">
-        IDDER
-        <animateTransform attributeName="transform" type="translate" values="0 0;4 0;0 0;0 0;-3 0;0 0;0 0" keyTimes="0;0.04;0.08;0.5;0.54;0.58;1" dur="4.5s" repeatCount="indefinite"/>
-      </text>
-      <text x="640" y="150" fill="url(#nameG)" filter="url(#neonLg)">IDDER</text>
-    </g>
-
-    <!-- subtitle -->
-    <g text-anchor="middle" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', Menlo, Consolas, monospace">
-      <text x="640" y="190" font-size="20" fill="#a5f3fc" letter-spacing="7" filter="url(#neon)">FULL-STACK ENGINEER</text>
-      <text x="640" y="216" font-size="13.5" fill="#6b7f96" letter-spacing="3">SYSTEMS &amp; C &#160;//&#160; WEB &amp; SHOPIFY &#160;//&#160; AGADIR · MA</text>
-    </g>
-
-    <!-- bottom HUD ticks -->
-    <g font-family="ui-monospace, monospace" font-size="11" fill="#3f5168" letter-spacing="2">
-      <text x="28" y="424">v4.0 — BUILT FROM SCRATCH</text>
-      <text x="1252" y="424" text-anchor="end">35.7°N 0.9°W</text>
-    </g>
+    <text x="1228" y="390" text-anchor="end"
+      font-family="'SF Mono',ui-monospace,monospace"
+      font-size="11" letter-spacing="1.5" fill="#252525">portfolio-nu-six-19.vercel.app</text>
   </g>
-
-  <!-- neon frame -->
-  <rect x="1" y="1" width="1278" height="438" rx="18" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.4"/>
-  <rect x="3.5" y="3.5" width="1273" height="433" rx="15" fill="none" stroke="#ff2e88" stroke-width="1" opacity="0.18"/>
 </svg>
