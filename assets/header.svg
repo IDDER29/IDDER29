@@ -71,12 +71,12 @@
       font-size="10" letter-spacing="5" fill="#7aa2f7"
       font-weight="700">FULL-STACK ENGINEER</text>
 
-    <!-- Key signals — not languages, CAPABILITIES -->
+    <!-- Plain descriptors — who I am, not a pitch -->
     <g font-family="'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#a9b1d6">
-      <text x="732" y="124">▸  End-to-end ownership — idea to production</text>
-      <text x="732" y="152">▸  Systems depth: malloc → React → Shopify</text>
-      <text x="732" y="180">▸  AI-era judgment — I verify what AI generates</text>
-      <text x="732" y="208">▸  1337 / 42 Network · peer-reviewed · no shortcuts</text>
+      <text x="732" y="124">▸  Web · Commerce · Systems</text>
+      <text x="732" y="152">▸  Student at 1337 · 42 Network</text>
+      <text x="732" y="180">▸  I like building things end to end</text>
+      <text x="732" y="208">▸  Curious how it all works underneath</text>
     </g>
 
     <!-- Bottom strip -->
@@ -92,6 +92,6 @@
 
     <text x="1216" y="294" text-anchor="end"
       font-family="'SF Mono',ui-monospace,monospace"
-      font-size="11" letter-spacing="2" fill="#414868">AGADIR, MOROCCO · BUILDING FOR THE WORLD</text>
+      font-size="11" letter-spacing="2" fill="#414868">AGADIR, MOROCCO</text>
   </g>
 </svg>

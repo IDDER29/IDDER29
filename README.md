@@ -2,7 +2,7 @@
 <!--                            HEADER                                  -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-<img src="assets/header.svg" width="100%" alt="Idder Ait Elmouden — Full-Stack Engineer" />
+<img src="assets/header.svg" width="100%" alt="Idder Ait Elmouden — Full-Stack Developer" />
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 <!-- Typing animation -->
 <a href="https://portfolio-nu-six-19.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=1000&color=7AA2F7&center=true&vCenter=true&width=720&height=54&lines=I+build+things+that+work.;Full+stack+%E2%80%94+every+layer%2C+nothing+outsourced.;1337+%2F+42+Network+%E2%80%94+I+wrote+malloc+from+scratch.;Systems+to+storefronts.+Check+the+repos." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=720&height=54&lines=Full-stack+developer+%C2%B7+Agadir%2C+Morocco;Student+at+1337+%E2%80%94+42+Network;I+like+building+things+end+to+end;Currently+deep+in+C+%26+systems" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -28,65 +28,59 @@
 <!--                            ABOUT                                   -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## ⚡ Who I Am
+## 👋 Hey, I'm Idder
 
-I'm **Idder Ait Elmouden** — a full-stack engineer who builds complete systems.
-Not "frontend with some backend experience." The whole thing, at production quality.
+A full-stack developer based in **Agadir, Morocco**, and a student at **1337 (42 Network)**.
 
-I trained at **1337 Coding School (42 Network)** — a peer-only, no-lecture program where ~50% don't
-make it through the first month. No teachers. No hand-holding. You either figure it out or you're out.
-I figured it out. Then I wrote a `printf`, a shell, and a memory allocator from scratch in C,
-got 100% peer-review scores, and came out understanding what's beneath every abstraction I use in web.
+I like building things end to end — taking something from an idea to a thing people can actually
+use — and I like understanding how it all works underneath. Most of my time goes to **web**
+(React, Next.js, Node) and building **Shopify** stores. The rest goes to **C and low-level systems**
+at 1337, where right now I'm working through a shell and a memory allocator from scratch.
 
-That's the difference. Most developers know *how* to use the framework. I know *why* it works.
+I'm curious about how AI is changing the way we build software, and honestly I care more about
+making things that work than about which tools I used to get there.
 
 ```typescript
 const idder = {
-  title:     "Full-Stack Engineer",
-  range:     "malloc → production Shopify storefront — every layer",
-  school:    "1337 / 42 Network  ·  peer-reviewed  ·  no shortcuts",
-  shipped:   ["Arpio Architects", "Social Compass", "Gameplan Redesign", "1337 Systems Suite"],
-  stack:     ["TypeScript", "React", "Next.js", "Node.js", "NestJS", "Python", "C", "Shopify"],
-  currently: "Deep in C — printf, shell, malloc from scratch. Fundamentals matter.",
-  approach:  "I don't write code. I engineer solutions. Then I ship them.",
+  location:  "Agadir, Morocco 🇲🇦",
+  role:      "Full-Stack Developer",
+  school:    "1337 — 42 Network",
+  learning:  "C & low-level systems",
+  enjoys:    ["building end to end", "figuring out how things work", "shipping real products"],
+  interests: ["web", "commerce / Shopify", "where AI fits into building"],
 };
 ```
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!--              WHAT MATTERS IN 2026 — NOT LANGUAGES               -->
+<!--                          WHAT I'M INTO                            -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 🧠 What Actually Matters in 2026
+## 🧭 What I'm Into
 
-> In the age of AI, anyone can generate code. What separates engineers is everything that comes after.
-
-| Capability | What that means in practice |
-|---|---|
-| 🏗️ **End-to-end ownership** | I take a problem from spec to deployed product. No handoffs. No "that's not my layer." |
-| 🔍 **AI-era judgment** | I know when AI output is right, when it's confidently wrong, and how to verify the difference. |
-| ⚙️ **Systems depth** | 1337 / 42 Network background — I understand memory, processes, and the layers AI gets wrong. |
-| 🛒 **Commerce expertise** | Shopify storefronts built around conversion metrics, not aesthetics. Revenue is the spec. |
-| 🚀 **Ship velocity** | From idea to live product, fast. [Check the commit history.](https://github.com/IDDER29?tab=repositories) |
-| 🧩 **Architecture thinking** | I design systems that survive real traffic, not just demos. Trade-offs documented, not hidden. |
+- **Building end to end** — I enjoy owning the whole thing, from the idea to something live.
+- **How things work underneath** — memory, processes, the layers below the framework.
+- **Web & commerce** — the React / Next ecosystem, and building Shopify storefronts.
+- **AI in real work** — figuring out where it genuinely helps when you're building, and where it doesn't.
+- **Side curiosities** — chess analysis, agritech, and small automation projects I do for fun.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!--                       FEATURED PROJECTS                            -->
+<!--                       THINGS I'VE BUILT                            -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 🚀 Proof of Work
+## 🔨 Things I've Built
 
-| Project | What it actually did | Stack |
+| Project | What it is | Stack |
 |---|---|---|
-| **[Arpio Architects](https://github.com/IDDER29/arpio-architects-case-study)** ⭐ | Architecture firm website that makes clients trust the firm before they've spoken to anyone. Built to convert, not just to look good. | `React` `TypeScript` `Vite` |
-| **[Social Compass](https://github.com/IDDER29/social-compass-mobile)** | A campus super-app that actually shipped — events, ticketing, rewards, community. Real users, real devices, real production. | `React Native` `TypeScript` |
-| **[Gameplan Redesign](https://github.com/IDDER29/andy-elliott-gameplan-redesign-case-study)** | Rebuilt a leaking lead-capture page into a conversion funnel that earns its place. Before/after tells the whole story. | `TypeScript` |
-| **[1337 Systems Suite](https://github.com/IDDER29?tab=repositories&language=c&sort=stargazers)** | `printf`, shell, memory allocator, core lib — all in C, from scratch, no libraries. 100% peer-review scores. The foundation that separates engineers from developers. | `C` `Makefile` |
+| **[Arpio Architects](https://github.com/IDDER29/arpio-architects-case-study)** ⭐ | A website for an architecture firm — focused on brand and turning visitors into clients. | `React` `TypeScript` `Vite` |
+| **[Social Compass](https://github.com/IDDER29/social-compass-mobile)** | A campus app: events, ticketing, reward points and community. Shipped to real users. | `React Native` `TypeScript` |
+| **[Gameplan Redesign](https://github.com/IDDER29/andy-elliott-gameplan-redesign-case-study)** | A rebuild of an old lead-capture page into a cleaner, conversion-focused funnel. | `TypeScript` |
+| **[1337 Systems Suite](https://github.com/IDDER29?tab=repositories&language=c&sort=stargazers)** | C projects from the 42 curriculum — a `printf`, a shell, a sorting engine, a small standard library. Built from scratch. | `C` `Makefile` |
 
-> 💡 **68 repositories** — every one of them built, not cloned. [Browse them all →](https://github.com/IDDER29?tab=repositories)
+> A few favorites here. There's more across my [68 repositories →](https://github.com/IDDER29?tab=repositories)
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
@@ -94,7 +88,7 @@ const idder = {
 <!--                         GITHUB STATS                               -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 📊 By the Numbers
+## 📊 GitHub
 
 <div align="center">
 
@@ -108,10 +102,6 @@ const idder = {
 <br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=IDDER29&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Activity graph" width="98%" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=IDDER29&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4&margin-h=4" alt="Trophies" />
 
 </div>
 
@@ -137,15 +127,12 @@ const idder = {
 <!--                           CONNECT                                  -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 🤝 Work With Me
+## 🤝 Get in Touch
 
 <div align="center">
 
-**If you need someone who owns the whole stack, sweats the details, and ships —**
-**you're looking at the right profile.**
-
-I'm open to freelance contracts and full-time roles where the work actually matters.
-Bring me your hardest problem.
+I'm open to freelance and full-time work. If you're building something interesting —
+or just want to talk shop — say hi.
 
 <br/><br/>
 
@@ -154,16 +141,11 @@ Bring me your hardest problem.
 <a href="mailto:idderaitelmouden@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://github.com/IDDER29"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
-</div>
-
+<br/>
 <br/>
 
-<div align="center">
-
-> *"Most developers use the tools. I understand them — then I build things that last."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer&width=100%" alt="footer" />
-
-⭐️ From [IDDER29](https://github.com/IDDER29) — built from scratch, as always.
+<sub>Still learning, always building.</sub>
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer&width=100%" alt="footer" />
