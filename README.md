@@ -2,7 +2,7 @@
 <!--                            HEADER                                  -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-<img src="assets/header.svg" width="100%" alt="Idder Ait Elmouden — Full-Stack Developer" />
+<img src="assets/header.svg" width="100%" alt="Idder Ait Elmouden — Software Engineer" />
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 <!-- Typing animation -->
 <a href="https://portfolio-nu-six-19.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=720&height=54&lines=Full-stack+developer+%C2%B7+Agadir%2C+Morocco;Student+at+1337+%E2%80%94+42+Network;I+like+building+things+end+to+end;Currently+deep+in+C+%26+systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=720&height=54&lines=Hey%2C+I%27m+Idder;I+just+really+like+building+things;Always+curious+how+stuff+works;Usually+mid-way+through+a+new+project" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -30,40 +30,30 @@
 
 ## 👋 Hey, I'm Idder
 
-A full-stack developer based in **Agadir, Morocco**, and a student at **1337 (42 Network)**.
+I'm the kind of person who can't use something cool without immediately wondering how it
+works — and then wanting to build my own version of it.
 
-I like building things end to end — taking something from an idea to a thing people can actually
-use — and I like understanding how it all works underneath. Most of my time goes to **web**
-(React, Next.js, Node) and building **Shopify** stores. The rest goes to **C and low-level systems**
-at 1337, where right now I'm working through a shell and a memory allocator from scratch.
+That's honestly the whole story. I love the moment an idea turns into a real thing you can
+actually click and use. I get a little obsessed with the small details most people never
+notice — the ones that quietly make something feel *right*. And nothing beats the feeling
+when something I made actually helps someone.
 
-I'm curious about how AI is changing the way we build software, and honestly I care more about
-making things that work than about which tools I used to get there.
+I'm a software engineer, so the tools and the problems keep changing on me. I'm good with
+that — I just like being the person who figures it out and builds it anyway.
 
-```typescript
-const idder = {
-  location:  "Agadir, Morocco 🇲🇦",
-  role:      "Full-Stack Developer",
-  school:    "1337 — 42 Network",
-  learning:  "C & low-level systems",
-  enjoys:    ["building end to end", "figuring out how things work", "shipping real products"],
-  interests: ["web", "commerce / Shopify", "where AI fits into building"],
-};
+Most days basically look like this:
+
+```js
+while (awake) {
+  const idea = somethingICantStopThinkingAbout;
+  const thing = build(idea);     // my favorite part
+  understand(thing);             // I always need to know how it works
+  ship(thing);                   // best when it ends up helping someone
+}
 ```
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-
-<!-- ════════════════════════════════════════════════════════════════ -->
-<!--                          WHAT I'M INTO                            -->
-<!-- ════════════════════════════════════════════════════════════════ -->
-
-## 🧭 What I'm Into
-
-- **Building end to end** — I enjoy owning the whole thing, from the idea to something live.
-- **How things work underneath** — memory, processes, the layers below the framework.
-- **Web & commerce** — the React / Next ecosystem, and building Shopify storefronts.
-- **AI in real work** — figuring out where it genuinely helps when you're building, and where it doesn't.
-- **Side curiosities** — chess analysis, agritech, and small automation projects I do for fun.
+And when I'm not building, I'm usually reading about something I just got curious about — or
+quietly starting another side project I definitely don't have time for.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
@@ -71,16 +61,19 @@ const idder = {
 <!--                       THINGS I'VE BUILT                            -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 🔨 Things I've Built
+## 🔨 Stuff I've Made
 
-| Project | What it is | Stack |
+I learn the most by actually making things, so there's almost always something in progress.
+Here are a few I'm genuinely proud of:
+
+| Project | What it is | Built with |
 |---|---|---|
-| **[Arpio Architects](https://github.com/IDDER29/arpio-architects-case-study)** ⭐ | A website for an architecture firm — focused on brand and turning visitors into clients. | `React` `TypeScript` `Vite` |
-| **[Social Compass](https://github.com/IDDER29/social-compass-mobile)** | A campus app: events, ticketing, reward points and community. Shipped to real users. | `React Native` `TypeScript` |
-| **[Gameplan Redesign](https://github.com/IDDER29/andy-elliott-gameplan-redesign-case-study)** | A rebuild of an old lead-capture page into a cleaner, conversion-focused funnel. | `TypeScript` |
-| **[1337 Systems Suite](https://github.com/IDDER29?tab=repositories&language=c&sort=stargazers)** | C projects from the 42 curriculum — a `printf`, a shell, a sorting engine, a small standard library. Built from scratch. | `C` `Makefile` |
+| **[Arpio Architects](https://github.com/IDDER29/arpio-architects-case-study)** ⭐ | A site for an architecture firm — I wanted it to feel like the kind of studio you'd trust with your home. | `React` `TypeScript` `Vite` |
+| **[Social Compass](https://github.com/IDDER29/social-compass-mobile)** | A campus app with events, ticketing and reward points. Real people actually use this one, which still feels great. | `React Native` `TypeScript` |
+| **[Gameplan Redesign](https://github.com/IDDER29/andy-elliott-gameplan-redesign-case-study)** | Took a tired old landing page and rebuilt it into something clean that actually converts. | `TypeScript` |
+| **[Things from scratch](https://github.com/IDDER29?tab=repositories&language=c&sort=stargazers)** | The fun rabbit-hole stuff — rebuilding pieces of the toolbox myself, just to really understand how they work underneath. | `C` `Makefile` |
 
-> A few favorites here. There's more across my [68 repositories →](https://github.com/IDDER29?tab=repositories)
+> Just a few favorites — there's plenty more across my [68 repositories →](https://github.com/IDDER29?tab=repositories)
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
@@ -127,12 +120,12 @@ const idder = {
 <!--                           CONNECT                                  -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 🤝 Get in Touch
+## 🤝 Say Hi
 
 <div align="center">
 
-I'm open to freelance and full-time work. If you're building something interesting —
-or just want to talk shop — say hi.
+I'm always happy to meet people who build things. Got a project, an idea, or just want to
+talk shop? My inbox is open — come say hi.
 
 <br/><br/>
 
