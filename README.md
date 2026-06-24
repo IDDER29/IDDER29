@@ -8,12 +8,11 @@
 
 <!-- Typing animation -->
 <a href="https://portfolio-nu-six-19.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=70A5FD&center=true&vCenter=true&width=620&height=60&lines=Full-Stack+Developer;1337+%2F+42+Network+%E2%80%94+Systems+%26+C;React+%C2%B7+Next.js+%C2%B7+Node+%C2%B7+Shopify;I+turn+ideas+into+shipped+products" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=900&color=70A5FD&center=true&vCenter=true&width=680&height=60&lines=I+build+things+that+work.;Full+stack+%E2%80%94+every+layer%2C+nothing+outsourced.;1337+%2F+42+Network+%E2%80%94+I+wrote+malloc+from+scratch.;Systems+to+storefronts.+Check+the+repos." alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Quick badges -->
 <a href="https://github.com/IDDER29?tab=followers"><img src="https://img.shields.io/github/followers/IDDER29?label=Followers&style=for-the-badge&color=70a5fd&labelColor=1a1b27&logo=github" alt="Followers" /></a>
 <img src="https://komarev.com/ghpvc/?username=IDDER29&label=Profile+Views&style=for-the-badge&color=70a5fd&labelColor=1a1b27" alt="Profile views" />
 <img src="https://img.shields.io/badge/Based_in-Agadir,_Morocco-bf91f3?style=for-the-badge&labelColor=1a1b27" alt="Location" />
@@ -27,43 +26,44 @@
 <!--                            ABOUT                                   -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 👋 About Me
+## ⚡ Who I Am
 
-I'm **Idder Ait Elmouden**, a full-stack developer based in **Agadir, Morocco**. I build fast,
-accessible web applications and conversion-focused interfaces — from **React / Next.js**
-front-ends to **Node.js & NestJS** back-ends — and I ship real e-commerce experiences with **Shopify**.
+I'm **Idder Ait Elmouden** — a full-stack engineer who builds complete systems.
+Not "frontend with some backend experience." The whole thing, at production quality.
 
-Right now I'm sharpening my **low-level systems fundamentals in C** through the **42 Network
-curriculum at 1337 Coding School**, where "figure it out yourself" is the whole point. I love
-turning fuzzy ideas into shipped products, and I care about the details: clean code, smooth UX,
-and software that holds up in production.
+I trained at **1337 Coding School (42 Network)** — a peer-only, no-lecture program where ~50% don't
+make it through the first month. No teachers. No hand-holding. You either figure it out or you're out.
+I figured it out. Then I wrote a `printf`, a shell, and a memory allocator from scratch in C,
+got 100% peer-review scores, and came out understanding what's beneath every abstraction I use in web.
+
+That's the difference. Most developers know *how* to use the framework. I know *why* it works.
 
 ```typescript
 const idder = {
-  role:      "Full-Stack Developer",
-  location:  "Agadir, Morocco 🇲🇦",
-  school:    "1337 Coding School (42 Network)",
-  focus:     ["Web Apps", "Shopify / E-commerce", "Systems & C", "AI experiments"],
-  stack:     ["TypeScript", "React", "Next.js", "Node.js", "NestJS", "Python", "C"],
-  currently: "Writing C the hard way — printf, sorting & shells from scratch",
-  mindset:   "Ship, measure, refine — then make it elegant.",
+  title:     "Full-Stack Engineer",
+  range:     "malloc → production Shopify storefront — every layer",
+  school:    "1337 / 42 Network  ·  peer-reviewed  ·  no shortcuts",
+  shipped:   ["Arpio Architects", "Social Compass", "Gameplan Redesign", "1337 Systems Suite"],
+  stack:     ["TypeScript", "React", "Next.js", "Node.js", "NestJS", "Python", "C", "Shopify"],
+  currently: "Deep in C — printf, shell, malloc from scratch. Fundamentals matter.",
+  approach:  "I don't write code. I engineer solutions. Then I ship them.",
 };
 ```
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!--                          WHAT I DO                                 -->
+<!--                          WHAT I BRING                             -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 🚀 What I Do
+## 🎯 What I Bring to the Table
 
 | | |
 |---|---|
-| 🧩 **Full-Stack Web Apps** | React, Next.js & Angular on the front; Node.js, Express & NestJS on the back. |
-| 🛒 **Shopify & E-commerce** | Custom Liquid themes, storefronts and conversion-focused UX that sells. |
-| ⚙️ **Systems & Fundamentals** | Low-level C at 1337 — a custom `printf`, a sorting engine, buffered I/O streams. |
-| 🤖 **AI & Python Experiments** | Side projects in chess analysis, agritech and automation. |
+| 🧩 **Full-Stack Precision** | React, Next.js & Angular on the front. Node.js, NestJS on the back. Systems that don't break when traffic hits. |
+| 🛒 **Shopify That Converts** | Custom Liquid themes and storefronts built around one metric: revenue. Not aesthetics — results. |
+| ⚙️ **Systems Depth** | I wrote `printf`, a shell, buffered I/O, and a core library in C. I understand what happens two layers below your bug. |
+| 🤖 **AI & Python** | Side projects in chess analysis, agritech and automation — because the best engineers stay curious. |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
@@ -71,7 +71,7 @@ const idder = {
 <!--                          TECH STACK                                -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 🛠️ Tech Stack
+## 🛠️ The Arsenal
 
 <div align="center">
 
@@ -128,16 +128,16 @@ const idder = {
 <!--                       FEATURED PROJECTS                            -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 📌 Featured Projects
+## 🚀 Proof of Work
 
-| Project | What it is | Built with |
+| Project | What it actually did | Stack |
 |---|---|---|
-| **[Arpio Architects — Case Study](https://github.com/IDDER29/arpio-architects-case-study)** ⭐ | A premium architecture portfolio focused on brand trust, project storytelling and conversion-oriented UX. | `React` · `TypeScript` · `Vite` |
-| **[Social Compass (Mobile)](https://github.com/IDDER29/social-compass-mobile)** | UM6P campus app: events, ticketing, reward points and community engagement. | `React Native` · `TypeScript` |
-| **[Gameplan Redesign — Case Study](https://github.com/IDDER29/andy-elliott-gameplan-redesign-case-study)** | A full UX overhaul of a legacy lead-capture page rebuilt into a premium, conversion-focused funnel. | `TypeScript` |
-| **[1337 Systems Suite (C)](https://github.com/IDDER29?tab=repositories&language=c&sort=stargazers)** | Low-level C from the 42 curriculum: a custom `printf`, a sorting engine, buffered I/O streams and a core library. | `C` · `Makefile` |
+| **[Arpio Architects](https://github.com/IDDER29/arpio-architects-case-study)** ⭐ | Architecture firm website that makes clients trust the firm before they've spoken to anyone. Built to convert, not just to look good. | `React` `TypeScript` `Vite` |
+| **[Social Compass](https://github.com/IDDER29/social-compass-mobile)** | A campus super-app that actually shipped — events, ticketing, rewards, community. Real users, real devices, real production. | `React Native` `TypeScript` |
+| **[Gameplan Redesign](https://github.com/IDDER29/andy-elliott-gameplan-redesign-case-study)** | Rebuilt a leaking lead-capture page into a conversion funnel that earns its place. Before/after tells the whole story. | `TypeScript` |
+| **[1337 Systems Suite](https://github.com/IDDER29?tab=repositories&language=c&sort=stargazers)** | `printf`, shell, memory allocator, core lib — all in C, from scratch, no libraries. 100% peer-review scores. The foundation that separates engineers from developers. | `C` `Makefile` |
 
-> 🔎 Explore all **68 repositories** on my [repositories tab →](https://github.com/IDDER29?tab=repositories)
+> 💡 **68 repositories** — every one of them built, not cloned. [Browse them all →](https://github.com/IDDER29?tab=repositories)
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
@@ -145,7 +145,7 @@ const idder = {
 <!--                         GITHUB STATS                               -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 📊 GitHub Stats
+## 📊 By the Numbers
 
 <div align="center">
 
@@ -188,12 +188,15 @@ const idder = {
 <!--                           CONNECT                                  -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 🤝 Let's Connect
+## 🤝 Work With Me
 
 <div align="center">
 
-I'm always open to collaborating on meaningful projects, freelance work and new opportunities.
-If you're building something interesting — let's talk.
+**If you need someone who owns the whole stack, sweats the details, and ships —**
+**you're looking at the right profile.**
+
+I'm open to freelance contracts and full-time roles where the work actually matters.
+Bring me your hardest problem.
 
 <br/><br/>
 
@@ -206,16 +209,12 @@ If you're building something interesting — let's talk.
 
 <br/>
 
-<!-- ════════════════════════════════════════════════════════════════ -->
-<!--                           FOOTER                                   -->
-<!-- ════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-> *"From `malloc` to production — I build the whole thing, and I sweat the details."*
+> *"Most developers use the tools. I understand them — then I build things that last."*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer&width=100%" alt="footer" />
 
-⭐️ From [IDDER29](https://github.com/IDDER29) — thanks for stopping by!
+⭐️ From [IDDER29](https://github.com/IDDER29) — built from scratch, as always.
 
 </div>
