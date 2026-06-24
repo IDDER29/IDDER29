@@ -1,0 +1,135 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Idder Ait Elmouden — Full-Stack Developer, Systems and C, Shopify. Agadir, Morocco.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0e16"/>
+      <stop offset="0.55" stop-color="#0d1426"/>
+      <stop offset="1" stop-color="#090d15"/>
+    </linearGradient>
+
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.55 0;0.55 0;-0.55 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" fill="none" stroke="#16202f" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="46 46" dur="18s" repeatCount="indefinite"/>
+    </pattern>
+
+    <filter id="blur" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="58"/>
+    </filter>
+
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="card"><rect x="1" y="1" width="1198" height="298" rx="24"/></clipPath>
+  </defs>
+
+  <!-- ambient background -->
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+
+    <ellipse cx="300" cy="120" rx="140" ry="100" fill="#38bdf8" opacity="0.13" filter="url(#blur)">
+      <animate attributeName="cx" values="250;390;250" dur="19s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="105;165;105" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1004" cy="150" rx="130" ry="120" fill="#a855f7" opacity="0.16" filter="url(#blur)">
+      <animate attributeName="cx" values="1004;980;1004" dur="22s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="150;175;150" dur="22s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- twinkling particles -->
+    <circle cx="430" cy="60" r="1.6" fill="#7dd3fc"><animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="650" cy="240" r="1.4" fill="#c4b5fd"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="540" cy="120" r="1.2" fill="#a5b4fc"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="210" r="1.5" fill="#7dd3fc"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.8s" repeatCount="indefinite"/></circle>
+
+    <!-- scanline -->
+    <rect x="0" width="1200" height="2" fill="#38bdf8" opacity="0.05">
+      <animate attributeName="y" values="-2;300" dur="7.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- borders -->
+  <rect x="1" y="1" width="1198" height="298" rx="24" fill="none" stroke="#1d2940" stroke-width="1.5"/>
+  <rect x="1" y="1" width="1198" height="298" rx="24" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- left accent bar -->
+  <rect x="52" y="62" width="3" height="170" rx="1.5" fill="url(#accent)" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.55" begin="0.3s" dur="0.8s" fill="freeze"/>
+  </rect>
+
+  <!-- prompt line -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.25s" dur="0.6s" fill="freeze"/>
+    <text x="72" y="82" font-size="17" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace">
+      <tspan fill="#3fb950">idder@1337</tspan><tspan fill="#5b6b82">:~$</tspan><tspan fill="#8b98a5"> ./introduce --elite</tspan>
+    </text>
+  </g>
+
+  <!-- name -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.9s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" begin="0.5s" dur="0.9s" fill="freeze"/>
+    <text x="70" y="158" font-size="64" font-weight="800" fill="url(#name)" filter="url(#soft)" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">Idder Ait Elmouden</text>
+  </g>
+
+  <!-- subtitle + cursor -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.8s" fill="freeze"/>
+    <text x="72" y="197" font-size="21" fill="#aeb9c9" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', 'Fira Code', Menlo, Consolas, monospace">
+      Full-Stack Developer <tspan fill="#3a4658">·</tspan> Systems &amp; C <tspan fill="#3a4658">·</tspan> Shopify
+    </text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.3s" fill="freeze"/>
+    <rect x="596" y="181" width="11" height="20" fill="#38bdf8">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- tagline -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.8s" fill="freeze"/>
+    <text x="72" y="232" font-size="15.5" fill="#6f7d90" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">Agadir, Morocco&#160;&#160;—&#160;&#160;I turn ideas into software that ships, then make it elegant.</text>
+  </g>
+
+  <!-- right: system core -->
+  <g transform="translate(1004,150)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="0.9s" dur="1s" fill="freeze"/>
+    <circle r="80" fill="none" stroke="#22304a" stroke-width="1"/>
+    <circle r="80" fill="none" stroke="url(#accent)" stroke-width="1.6" stroke-dasharray="42 260" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="57" fill="none" stroke="#1d2940" stroke-width="1"/>
+    <circle r="57" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="22 180" stroke-linecap="round" opacity="0.85">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="34" fill="none" stroke="#26344e" stroke-width="1"/>
+    <circle r="34" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="15 120" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="7" fill="url(#accent)" filter="url(#soft)">
+      <animate attributeName="r" values="6;8.5;6" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+      <circle cx="80" cy="0" r="4" fill="#38bdf8"/>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="7s" repeatCount="indefinite"/>
+      <circle cx="57" cy="0" r="3" fill="#c4b5fd"/>
+    </g>
+  </g>
+</svg>
