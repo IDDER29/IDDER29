@@ -1,0 +1,82 @@
+<svg width="1280" height="480" viewBox="0 0 1280 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Idder — Full-Stack Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset="1" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a0a0a" stop-opacity="1"/>
+      <stop offset="1" stop-color="#0a0a0a" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1280" height="480"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="480" fill="url(#bg)"/>
+
+    <!-- Thin grid — very subtle -->
+    <line x1="64" y1="0" x2="64" y2="480" stroke="#e8e8e8" stroke-width="1"/>
+    <line x1="1216" y1="0" x2="1216" y2="480" stroke="#e8e8e8" stroke-width="1"/>
+    <line x1="0" y1="60" x2="1280" y2="60" stroke="#e8e8e8" stroke-width="1"/>
+    <line x1="0" y1="420" x2="1280" y2="420" stroke="#e8e8e8" stroke-width="1"/>
+
+    <!-- Status indicator top left -->
+    <circle cx="76" cy="38" r="4" fill="#1a1a1a"/>
+    <text x="88" y="43" font-family="'SF Mono', 'Cascadia Code', 'Fira Code', ui-monospace, monospace" font-size="11" fill="#888" letter-spacing="3">IDDER29 — ONLINE</text>
+
+    <!-- Location top right -->
+    <text x="1216" y="43" font-family="'SF Mono', ui-monospace, monospace" font-size="11" fill="#aaa" letter-spacing="2" text-anchor="end">35.7°N · AGD · MA</text>
+
+    <!-- The name — massive, confident, editorial -->
+    <text x="64" y="290"
+      font-family="'Arial Black', 'Helvetica Neue', Impact, 'Franklin Gothic', sans-serif"
+      font-weight="900"
+      font-size="178"
+      letter-spacing="-4"
+      fill="#0a0a0a">IDDER</text>
+
+    <!-- Thin accent rule under name -->
+    <rect x="64" y="308" width="640" height="2" fill="url(#accentLine)"/>
+
+    <!-- Right column — tight editorial block -->
+    <text x="1216" y="194" text-anchor="end"
+      font-family="'Helvetica Neue', Arial, sans-serif"
+      font-size="13"
+      font-weight="700"
+      fill="#0a0a0a"
+      letter-spacing="4">FULL-STACK ENGINEER</text>
+
+    <line x1="900" y1="204" x2="1216" y2="204" stroke="#0a0a0a" stroke-width="1"/>
+
+    <text x="1216" y="224" text-anchor="end"
+      font-family="'Helvetica Neue', Arial, sans-serif"
+      font-size="12" fill="#555" letter-spacing="1">Systems · Web · Commerce · Mobile</text>
+
+    <text x="1216" y="248" text-anchor="end"
+      font-family="'Helvetica Neue', Arial, sans-serif"
+      font-size="12" fill="#555" letter-spacing="1">React · Next.js · TypeScript · C</text>
+
+    <text x="1216" y="272" text-anchor="end"
+      font-family="'Helvetica Neue', Arial, sans-serif"
+      font-size="12" fill="#555" letter-spacing="1">Node.js · Shopify · React Native</text>
+
+    <line x1="900" y1="290" x2="1216" y2="290" stroke="#e0e0e0" stroke-width="1"/>
+
+    <text x="1216" y="314" text-anchor="end"
+      font-family="'Helvetica Neue', Arial, sans-serif"
+      font-size="12" fill="#888" letter-spacing="1">Open for freelance + full-time</text>
+
+    <!-- Bottom status line -->
+    <text x="64" y="446"
+      font-family="'SF Mono', ui-monospace, monospace"
+      font-size="11" fill="#aaa" letter-spacing="2">68 REPOSITORIES · BUILT FROM SCRATCH</text>
+
+    <text x="1216" y="446" text-anchor="end"
+      font-family="'SF Mono', ui-monospace, monospace"
+      font-size="11" fill="#aaa" letter-spacing="2">idderaitelmouden@gmail.com</text>
+  </g>
+</svg>
