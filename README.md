@@ -2,21 +2,23 @@
 <!--                            HEADER                                  -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-![github-header-image](https://github.com/user-attachments/assets/a28d0d1a-4d48-4571-8e3c-ae12cfee173e)
+<img src="assets/header.svg" width="100%" alt="Idder Ait Elmouden — Full-Stack Engineer" />
 
 <div align="center">
 
+<br/>
+
 <!-- Typing animation -->
 <a href="https://portfolio-nu-six-19.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2800&pause=900&color=70A5FD&center=true&vCenter=true&width=680&height=60&lines=I+build+things+that+work.;Full+stack+%E2%80%94+every+layer%2C+nothing+outsourced.;1337+%2F+42+Network+%E2%80%94+I+wrote+malloc+from+scratch.;Systems+to+storefronts.+Check+the+repos." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2800&pause=1000&color=7AA2F7&center=true&vCenter=true&width=720&height=54&lines=I+build+things+that+work.;Full+stack+%E2%80%94+every+layer%2C+nothing+outsourced.;1337+%2F+42+Network+%E2%80%94+I+wrote+malloc+from+scratch.;Systems+to+storefronts.+Check+the+repos." alt="Typing SVG" />
 </a>
 
 <br/>
 
-<a href="https://github.com/IDDER29?tab=followers"><img src="https://img.shields.io/github/followers/IDDER29?label=Followers&style=for-the-badge&color=70a5fd&labelColor=1a1b27&logo=github" alt="Followers" /></a>
-<img src="https://komarev.com/ghpvc/?username=IDDER29&label=Profile+Views&style=for-the-badge&color=70a5fd&labelColor=1a1b27" alt="Profile views" />
-<img src="https://img.shields.io/badge/Based_in-Agadir,_Morocco-bf91f3?style=for-the-badge&labelColor=1a1b27" alt="Location" />
-<img src="https://img.shields.io/badge/Open_to-Work_%26_Freelance-9be9a8?style=for-the-badge&labelColor=1a1b27" alt="Open to work" />
+<a href="https://github.com/IDDER29?tab=followers"><img src="https://img.shields.io/github/followers/IDDER29?label=Followers&style=for-the-badge&color=7aa2f7&labelColor=1a1b27&logo=github" alt="Followers" /></a>
+<img src="https://komarev.com/ghpvc/?username=IDDER29&label=Profile+Views&style=for-the-badge&color=bb9af7&labelColor=1a1b27" alt="Profile views" />
+<img src="https://img.shields.io/badge/Based_in-Agadir,_Morocco-9ece6a?style=for-the-badge&labelColor=1a1b27" alt="Location" />
+<img src="https://img.shields.io/badge/Open_to-Work_%26_Freelance-7dcfff?style=for-the-badge&labelColor=1a1b27" alt="Open to work" />
 
 </div>
 
@@ -53,74 +55,21 @@ const idder = {
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
 <!-- ════════════════════════════════════════════════════════════════ -->
-<!--                          WHAT I BRING                             -->
+<!--              WHAT MATTERS IN 2026 — NOT LANGUAGES               -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 🎯 What I Bring to the Table
+## 🧠 What Actually Matters in 2026
 
-| | |
+> In the age of AI, anyone can generate code. What separates engineers is everything that comes after.
+
+| Capability | What that means in practice |
 |---|---|
-| 🧩 **Full-Stack Precision** | React, Next.js & Angular on the front. Node.js, NestJS on the back. Systems that don't break when traffic hits. |
-| 🛒 **Shopify That Converts** | Custom Liquid themes and storefronts built around one metric: revenue. Not aesthetics — results. |
-| ⚙️ **Systems Depth** | I wrote `printf`, a shell, buffered I/O, and a core library in C. I understand what happens two layers below your bug. |
-| 🤖 **AI & Python** | Side projects in chess analysis, agritech and automation — because the best engineers stay curious. |
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
-
-<!-- ════════════════════════════════════════════════════════════════ -->
-<!--                          TECH STACK                                -->
-<!-- ════════════════════════════════════════════════════════════════ -->
-
-## 🛠️ The Arsenal
-
-<div align="center">
-
-**Languages**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-**Backend**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-
-**Databases**
-
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-
-**Tools, DevOps & E-commerce**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Shopify](https://img.shields.io/badge/Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white)
-
-</div>
+| 🏗️ **End-to-end ownership** | I take a problem from spec to deployed product. No handoffs. No "that's not my layer." |
+| 🔍 **AI-era judgment** | I know when AI output is right, when it's confidently wrong, and how to verify the difference. |
+| ⚙️ **Systems depth** | 1337 / 42 Network background — I understand memory, processes, and the layers AI gets wrong. |
+| 🛒 **Commerce expertise** | Shopify storefronts built around conversion metrics, not aesthetics. Revenue is the spec. |
+| 🚀 **Ship velocity** | From idea to live product, fast. [Check the commit history.](https://github.com/IDDER29?tab=repositories) |
+| 🧩 **Architecture thinking** | I design systems that survive real traffic, not just demos. Trade-offs documented, not hidden. |
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
@@ -149,8 +98,8 @@ const idder = {
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=IDDER29&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&title_color=70a5fd&icon_color=bf91f3" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IDDER29&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=70a5fd" alt="Top languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=IDDER29&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&title_color=7aa2f7&icon_color=bb9af7" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IDDER29&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=7aa2f7" alt="Top languages" />
 
 <br/>
 
