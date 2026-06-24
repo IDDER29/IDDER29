@@ -1,0 +1,17 @@
+<svg width="380" height="48" viewBox="0 0 380 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="WHOAMI">
+  <defs>
+    <filter id="n" x="-40%" y="-60%" width="180%" height="220%">
+      <feGaussianBlur stdDeviation="1.8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="7" width="378" height="34" rx="9" fill="#0b0716"/>
+  <rect x="1" y="7" width="378" height="34" rx="9" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.30"/>
+  <circle cx="26" cy="24" r="4" fill="#22d3ee" filter="url(#n)">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="44" y="29" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Code', Menlo, Consolas, monospace" font-size="16" font-weight="700" letter-spacing="4" fill="#22d3ee" filter="url(#n)">// WHOAMI</text>
+  <rect x="44" y="35" width="0" height="2" fill="#22d3ee" opacity="0.8" filter="url(#n)">
+    <animate attributeName="width" values="0;150;0" dur="6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
