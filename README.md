@@ -10,7 +10,7 @@
 
 <!-- Typing animation -->
 <a href="https://portfolio-nu-six-19.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=720&height=54&lines=Hey%2C+I%27m+Idder;I+just+really+like+building+things;Always+curious+how+stuff+works;Usually+mid-way+through+a+new+project" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=720&height=54&lines=Hey%2C+I%27m+Idder;I+build+things.+A+lot+of+them.;Obsessed+with+how+stuff+works;And+where+AI+is+taking+all+this" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -30,30 +30,34 @@
 
 ## 👋 Hey, I'm Idder
 
-I'm the kind of person who can't use something cool without immediately wondering how it
-works — and then wanting to build my own version of it.
+I can't use something cool without taking it apart in my head. *How'd they build that? Why
+does it feel so good? ...okay, now I want to make one too.*
 
-That's honestly the whole story. I love the moment an idea turns into a real thing you can
-actually click and use. I get a little obsessed with the small details most people never
-notice — the ones that quietly make something feel *right*. And nothing beats the feeling
-when something I made actually helps someone.
+That's basically me on loop. I live for the exact moment an idea stops being an idea and
+turns into a real thing you can click. I obsess over the tiny details nobody ever notices —
+because those are the ones that make something feel *right*. And the best high? When
+something I built actually helps someone.
 
-I'm a software engineer, so the tools and the problems keep changing on me. I'm good with
-that — I just like being the person who figures it out and builds it anyway.
+Lately I'm hooked on two things: where AI is quietly rewriting how we build everything, and
+how you turn something you made into a real business people actually pay for. To me they're
+the same question — what's *worth* building, and how do you make it matter.
 
-Most days basically look like this:
+I'm a software engineer. The tools change, the problems change, I don't really mind — I just
+want to be the one who figures it out and ships it.
+
+Most days run on this loop:
 
 ```js
 while (awake) {
   const idea = somethingICantStopThinkingAbout;
-  const thing = build(idea);     // my favorite part
-  understand(thing);             // I always need to know how it works
-  ship(thing);                   // best when it ends up helping someone
+  const thing = build(idea);    // the best part, every single time
+  figureOutHowItWorks(thing);   // I literally can't not
+  ship(thing);                  // even better when it helps someone
 }
 ```
 
-And when I'm not building, I'm usually reading about something I just got curious about — or
-quietly starting another side project I definitely don't have time for.
+When I'm not building, I'm probably deep in a rabbit hole I fell into an hour ago — or
+starting yet another side project I definitely don't have time for.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 
