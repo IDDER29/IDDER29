@@ -4,9 +4,7 @@
 
 ![github-header-image](https://github.com/user-attachments/assets/a28d0d1a-4d48-4571-8e3c-ae12cfee173e)
 
-&nbsp;
-
-Full-stack engineer trained at **1337 School (42 Network, Agadir)** — the curriculum where you learn by building, not listening, and every project gets peer-reviewed by someone who just built the same thing and knows every way to get it wrong. From a `malloc`'d buffer in C to a production Shopify storefront to a mobile app with real users: I work across the entire stack, and I care about how it's done.
+<div align="center">
 
 <!-- Typing animation -->
 <a href="https://portfolio-nu-six-19.vercel.app/">
