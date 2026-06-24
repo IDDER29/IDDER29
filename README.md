@@ -67,8 +67,8 @@ starting yet another side project I definitely don't have time for.
 
 ## 🔨 Stuff I've Made
 
-I learn the most by actually making things, so there's almost always something in progress.
-Here are a few I'm genuinely proud of:
+I learn by making things, so there's always something half-built lying around. A few I'm
+actually proud of:
 
 | Project | What it is | Built with |
 |---|---|---|
@@ -128,8 +128,8 @@ Here are a few I'm genuinely proud of:
 
 <div align="center">
 
-I'm always happy to meet people who build things. Got a project, an idea, or just want to
-talk shop? My inbox is open — come say hi.
+If you're building something — or you just want to talk shipping, AI, business, whatever's
+got you going — my inbox is open. Come say hi.
 
 <br/><br/>
 
