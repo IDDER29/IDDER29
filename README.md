@@ -124,7 +124,7 @@ actually proud of:
 <!--                           CONNECT                                  -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
-## 🤝 Say Hi
+## Say Hi
 
 <div align="center">
 
@@ -133,15 +133,21 @@ got you going — my inbox is open. Come say hi.
 
 <br/><br/>
 
-<a href="https://portfolio-nu-six-19.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/idderaitelmouden/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:idderaitelmouden@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/IDDER29"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+<img src="assets/contact.svg" width="100%" alt="say hi" />
 
-<br/>
-<br/>
+<br/><br/>
 
-<sub>Still learning, always building.</sub>
+<a href="https://portfolio-nu-six-19.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-5ad8ff?style=for-the-badge&logo=vercel&logoColor=0a0e1a" alt="Portfolio" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/idderaitelmouden/"><img src="https://img.shields.io/badge/LinkedIn-7aa2f7?style=for-the-badge&logo=linkedin&logoColor=0a0e1a" alt="LinkedIn" /></a>
+&nbsp;
+<a href="mailto:idderaitelmouden@gmail.com"><img src="https://img.shields.io/badge/Email-f3a4dd?style=for-the-badge&logo=gmail&logoColor=0a0e1a" alt="Email" /></a>
+&nbsp;
+<a href="https://github.com/IDDER29"><img src="https://img.shields.io/badge/GitHub-bb9af7?style=for-the-badge&logo=github&logoColor=0a0e1a" alt="GitHub" /></a>
+
+<br/><br/>
+
+<sub>usually mid-way through something new — but the inbox is always open.</sub>
 
 </div>
 
