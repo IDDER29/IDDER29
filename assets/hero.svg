@@ -124,4 +124,8 @@
       font-family="'SF Mono',ui-monospace,monospace"
       font-size="11" letter-spacing="1.5" fill="#252525">portfolio-nu-six-19.vercel.app</text>
   </g>
+
+  <!-- neon frame -->
+  <rect x="1" y="1" width="1278" height="438" rx="18" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.4"/>
+  <rect x="3.5" y="3.5" width="1273" height="433" rx="15" fill="none" stroke="#ff2e88" stroke-width="1" opacity="0.18"/>
 </svg>
